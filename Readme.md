@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Irina Gurkova](https://up.htmlacademy.ru/htmlcss/25/user/1047109).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Вадясова](https://up.htmlacademy.ru/htmlcss/25/user/46068).
 
 ---
 
