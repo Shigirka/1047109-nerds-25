@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru"
+<html lang="ru">
  <head>
   <meta charset="utf-8">
   <title><a href="index.html">Магазин|Дизайн-студия "Нердс"</title></a>
@@ -31,93 +31,101 @@
 		<h1 class="intro-title">Магазин готовых шаблонов</h1>
 	</section>
   <section class="menu">
-    <p>Сетка:</p>
-      <input type="radio" name="bloks" checked>Адаптивная<br>
-      <input type="radio" name="bloks">Фиксированная<br>
-      <input type="radio" name="bloks">Резиновая<br>
-    </select>
-    <p>Особенности:</p>
-      <input type="checkbox" name="specific" checked>Слайдер<br>
-      <input type="checkbox" name="specific">Блок преимуществ<br>
-      <input type="checkbox" name="specific" checked>Новости<br>
-      <input type="checkbox" name="specific">Галерея<br>
-      <input type="checkbox" name="specific">Корзина<br>
-    </select>
+    <ul class="blocks">Сетка:
+      <li class="block-item"><input type="radio" name="bloks" checked>Адаптивная</li>
+      <li class="block-item"><input type="radio" name="bloks">Фиксированная</li>
+      <li class="block-item"><input type="radio" name="bloks">Резиновая</li>
+    </ul>
+  </section>
+    <ul class="special">Особенности:
+      <li class="special-item"><input type="checkbox" name="specific" checked>Слайдер</li>
+      <li class="special-item"><input type="checkbox" name="specific">Блок преимуществ</li>
+      <li class="special-item"><input type="checkbox" name="specific" checked>Новости</li>
+      <li class="special-item"><input type="checkbox" name="specific">Галерея</li>
+      <li class="special-item"><input type="checkbox" name="specific">Корзина</li>
+    </ul>
   </section>
   <section>
-    <ul>
-    <li>
+    <ul class="search-result">
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>Sedona</h3>
+        <h3><a href="#">Sedona</a></h3>
        <a href=""></a>  
        <p>Информационный сайт для туристов</p>
+       <button>9900 руб.</button>
       </div>
     </li>
-    <li>
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>Pink</h3>
+        <h2>pink app</h2>
         <a href="#"></a>
-        <p>Страница скачивания приложения</p>
+        <p>Продуктовый лендинг приложений для IOS и Android</p>
+        <button>9900 руб.</button>
       </div>
     </li>
-    <li>
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>Borodinski </h3>
-        <p>Страница барбершопа "Бородинский"</p>
+        <h2>barbershop</h3>
+        <p>Сайт салона красоты.</p>
+        <p>Для мужчин, да.</p>
         <a href="#"></a>
+        <button>9900 руб.</button>
       </div>
     </li>
-    <li>
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>Home design things</h3>
-        <p>Аксессуары для дома и дизайна</p>
+        <h2>Miska</h3>
+        <p>Интернет-магазин вязанных игрушек</p>
         <a href="#"></a>
+        <button>9900 руб.</button>
       </div>
     </li>
-    <li>
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>А+</h3>
-        <p>Сайт учебного заведения</p>
+        <h2>А Plus</h3>
+        <p>Лендинг курсов повышеения квалификации</p>
         <a href="#"></a>
+        <button>9900 руб.</button>
       </div>
     </li>
-    <li>
+    <li class="goods-item">
       <div>
         <img src="#">
       </div>
       <div>
-        <h2>Кваст</h3>
-        <p>Визитная карточка квасной компании</p>
+        <h2>кваст</h3>
+        <p>Промо-сайт производятеля крафтового кваса</p>
         <a href="#"></a>
+        <button>9900 руб.</button>
       </div>
     </li>
   </ul>
   </section>
 </main>
-<footer>
+<footer class="page-footer">
 	<div>
-    <ul>
+    <ul class="social page-footer-social">
 		  <li><a href="#">vk</a></li>
 		  <li><a href="#">facebook</a></li>
 		  <li><a href="#">Instagram</a></li>
     </ul>
 	</div>
-  <div>
+  <div class="friends">
 		<p><strong>Давайте дружить!</strong></p>
 		<p>	Скидка 10% для друзей из социальных сетей.</p>
 	</div>
